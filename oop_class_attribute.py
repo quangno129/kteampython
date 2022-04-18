@@ -5,7 +5,7 @@ class SieuNhan:
         self.vu_khi = para_vu_khi
         self.mau_sac = para_mau_sac
 
-sieu_nhan_A = SieuNhan("Sieu nhan do", "Kiem", "Do")
+sieu_nhan_A = SieuNhan("Sieu nhan do", "Kiem", "Do") # đối tượng ở đây là siêu nhân A
 
 print(SieuNhan.suc_manh)
 print(sieu_nhan_A.suc_manh)
